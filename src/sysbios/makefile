@@ -16,7 +16,7 @@ BIOS_INC  = -I"/home/linuxlite/ti/tirtos_cc13xx_cc26xx_2_21_01_08/products/bios_
 
 TARGET_INC = -I"/home/linuxlite/ti/tirtos_cc13xx_cc26xx_2_21_01_08/products/bios_6_46_01_38/packages/"
 
-INCS = $(BIOS_INC) $(TARGET_INC)  --include_path="/home/linuxlite/Desktop/empty_CC2650STK_TI_2023" --include_path="/home/linuxlite/Desktop/empty_CC2650STK_TI_2023" --include_path="/home/linuxlite/ti/tirtos_cc13xx_cc26xx_2_21_01_08/products/cc26xxware_2_24_03_17272" --include_path="/home/linuxlite/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include"  -I/home/linuxlite/ti/tirtos_cc13xx_cc26xx_2_21_01_08/products/bios_6_46_01_38/packages/ 
+INCS = $(BIOS_INC) $(TARGET_INC)  --include_path="/home/linuxlite/paskaxd" --include_path="/home/linuxlite/paskaxd" --include_path="/home/linuxlite/ti/tirtos_cc13xx_cc26xx_2_21_01_08/products/cc26xxware_2_24_03_17272" --include_path="/home/linuxlite/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include"  -I/home/linuxlite/ti/tirtos_cc13xx_cc26xx_2_21_01_08/products/bios_6_46_01_38/packages/ 
 
 CC = /home/linuxlite/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl -c $(CCOPTS) -I /home/linuxlite/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include
 ASM = /home/linuxlite/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/bin/armcl -c $(CCOPTS) -I /home/linuxlite/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include
